@@ -37,20 +37,28 @@ Ah, parfait, on est large alors :-)
 
 
 ### Cahier des charges
+1. Dans le fichier prenom_nom_scrapping.ipynb : Réaliser un scrapper de fichier audio depuis l'une des sources suivantes (https://www.ldoceonline.com/dictionary/love, https://www.linguee.fr/anglais-francais/traduction/love.html, https://dictionary.cambridge.org/dictionary/english/love) (jeter un oeil sur scrapAndParse.ipynb)
+    1. Otenir l'url du mp3 en anglais britannique et anglais américain d'un mot vedette cible
+    1. Otenir l'information du type prononciation IPA (longman), POS (longman, linguee, cambridge) (bonus)
+    1. Otenir toutes les urls de mp3 si il y a plusieurs variantes car le mot existe avec plusieurs part of speech (bonus)
 
-1. Produire par programmation un enrichissement du dictionnaire de Buchanan 1757 en ajoutant
-    1. une colonne motVedette (transformation/simplification de la prononciation d'origine)
-    1. une colonne Sampa (transformation/croisement de données)
+1. Dans le fichier prenom_nom_manipDataframe : Produire par programmation un enrichissement du dictionnaire de Buchanan 1757 en ajoutant (jeter un oeil sur pandasTricks.ipynb): 
+    1. une colonne motVedette (transformation/simplification de la prononciation d'origine) en utilisant le mapping du fichier Buchanan_PronChar_counts.csv 
+    1. une colonne Sampa et une colonne Ipa à partir des mots vedettes obtenus (transformation/croisement de données) en utilisant ./../data/dataframe/BigiRichSample.csv
+        1. isoler les mots de Buchanan qui n'existent pas dans Bigi. Tenter de comprendre les différentes causes et tenter d'expliquer comment résoudre les différents problèmes (bonus) 
+    1. sauvegarder la nouvelle matrice obtenue dans ./../data/dataframe/BuchananRich.csv
 
-1. Disposer d'une UI permettant de filtrer les entrées du dictionnaire enrichi de Buchanan sur :
-    1. la colonne motVedette (expression régulière)
+1. Dans le fichier prenom_nom_App.ipynb : Construire une UI permettant de filtrer les entrées du dictionnaire enrichi de Buchanan (s'inspirer de ça https://gitlab.huma-num.fr/mshs-poitiers/forellis/dicodiachro/-/blob/master/codes/interact/interact_Walker.ipynb) sur :
+    1. la colonne motVedette (expression régulière) 
     1. la colonne prononciation Sampa (expression régulière)
     1. une taille maximale d'échantillon résultat
     1. un bouton demandant la collecte/scrapping des fichiers audios (depuis des sources externes) des entrées isolées 
 
-2. Afficher en résultat 
-    1. un player pour chaque audio collecté
-    1. le spectrogramme pour chaque audio collecté
+    1. Afficher en résultat (jeter un oeil sur librosa.ipynb)
+        1. un player pour chaque audio collecté
+        1. le spectrogramme pour chaque audio collecté (bonus)
+        
+1. Déposer/deployer grace à un entrepot GIT+myBinder 
 
 
 
