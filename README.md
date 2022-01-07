@@ -38,9 +38,9 @@ Ah, parfait, on est large alors :-)
 
 ### Cahier des charges
 1. Dans le fichier prenom_nom_scrapping.ipynb : Réaliser un scrapper de fichier audio depuis l'une des sources suivantes (https://www.ldoceonline.com/dictionary/love, https://www.linguee.fr/anglais-francais/traduction/love.html, https://dictionary.cambridge.org/dictionary/english/love) (jeter un oeil sur scrapAndParse.ipynb)
-    1. Otenir l'url du mp3 en anglais britannique et anglais américain d'un mot vedette cible
-    1. Otenir l'information du type prononciation IPA (longman), POS (longman, linguee, cambridge) (bonus)
-    1. Otenir toutes les urls de mp3 si il y a plusieurs variantes car le mot existe avec plusieurs part of speech (bonus)
+    1. Obtenir l'url du mp3 en anglais britannique et anglais américain d'un mot vedette cible
+    1. Obtenir l'information du type prononciation IPA (longman), POS (longman, linguee, cambridge) (bonus)
+    1. Obtenir toutes les urls de mp3 si il y a plusieurs variantes car le mot existe avec plusieurs part of speech (bonus)
 
 1. Dans le fichier prenom_nom_manipDataframe : Produire par programmation un enrichissement du dictionnaire de Buchanan 1757 en ajoutant (jeter un oeil sur pandasTricks.ipynb): 
     1. une colonne motVedette (transformation/simplification de la prononciation d'origine) en utilisant le mapping du fichier Buchanan_PronChar_counts.csv 
@@ -50,7 +50,7 @@ Ah, parfait, on est large alors :-)
 
 1. Dans le fichier prenom_nom_App.ipynb : Construire une UI permettant de filtrer les entrées du dictionnaire enrichi de Buchanan (s'inspirer de ça https://gitlab.huma-num.fr/mshs-poitiers/forellis/dicodiachro/-/blob/master/codes/interact/interact_Walker.ipynb) sur :
     1. la colonne motVedette (expression régulière) 
-    1. la colonne prononciation Sampa (expression régulière)
+    1. la colonne prononciation ipa (expression régulière)(bonus)
     1. une taille maximale d'échantillon résultat
     1. un bouton demandant la collecte/scrapping des fichiers audios (depuis des sources externes) des entrées isolées 
 
@@ -60,7 +60,8 @@ Ah, parfait, on est large alors :-)
         
 1. Déposer/deployer grace à un entrepot GIT+myBinder 
 
-
+### Maquette de l'UI
+<img src="maquette.svg"> 
 
 
 ## Projet à réaliser 
@@ -74,7 +75,7 @@ Le dépôt Git de ce cours doit servir de modèle de structuration de données e
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/git/https%3A%2F%2Fgitlab.huma-num.fr%2Fmnauge%2Fcnam-athon-pronunciation/HEAD)
 
-https://mybinder.org/v2/git/https%3A%2F%2Fgitlab.huma-num.fr%2Fmnauge%2Fcnam-athon-pronunciation/HEAD?urlpath=voila%2Frender%2Fnotebook%2Fprenom_nom_App.ipynb
+[Launch Voilà](https://mybinder.org/v2/git/https%3A%2F%2Fgitlab.huma-num.fr%2Fmnauge%2Fcnam-athon-pronunciation/HEAD?urlpath=voila%2Frender%2Fnotebook%2Fprenom_nom_App.ipynb)
 
 
 
