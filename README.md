@@ -31,7 +31,7 @@ C'est ça ?
 
 Euh, oui, on verra ce qu'on peut faire dans les temps. C'est pour quand ?
 
-> Hier, évidemment. Mais j'ai eu exeptionnelement une extension de deadline de 7 jours pour soummettre mon article à une prestigieuse conférence internationale ;-)
+> Hier, évidemment. Mais j'ai eu exeptionnelement une extension de deadline de 7 jours pour soumettre mon article à une prestigieuse conférence internationale ;-)
 
 Ah, parfait, on est large alors :-)
 
@@ -41,8 +41,8 @@ Ah, parfait, on est large alors :-)
 
 1. Dans le fichier prenom_nom_scrapping.ipynb : Réaliser un scrapper de fichier audio depuis l'une des sources suivantes (https://www.ldoceonline.com/dictionary/love, https://www.linguee.fr/anglais-francais/traduction/love.html, https://dictionary.cambridge.org/dictionary/english/love) (jeter un oeil sur scrapAndParse.ipynb)
     1. Obtenir l'url du mp3 en anglais britannique et anglais américain d'un mot vedette cible
-    1. Obtenir l'information du type prononciation IPA (longman), POS (longman, linguee, cambridge) (bonus)
-    1. Obtenir toutes les urls de mp3 si il y a plusieurs variantes car le mot existe avec plusieurs part of speech (bonus)
+    1. Obtenir l'information complémentaire POS (part of speech) ou IPA (international phonetic alphabet) (bonus)
+    1. Obtenir toutes les urls de mp3 si il y a plusieurs variantes car le mot existe avec plusieurs POS (bonus)
     
 
 
@@ -70,9 +70,12 @@ Ah, parfait, on est large alors :-)
 
 ## Projet à réaliser 
 
-Avoir déployé une micro application web permettant le croisement entre les données d'un dictionnaire ancien et les prononciations contemporaines tels que décrit dans le cahier des charges.
+Avoir déployé une micro application web permettant le croisement entre les données d'un dictionnaire ancien et les prononciations contemporaines tels que décrit dans le cahier des charges. 
 
-Les projets réalisés doivent être déposées sous forme de dépôt GitHub. Le lien vers le dépôt Git à évaluer doit m'être transmis par mail pour le N/P/2022
+Les objectifs dans le cahier des charges qui portent l'annotation **(Bonus)** sont à considérer comme devant être réalisés dans une seconde itération de développement. Il faut avoir déployé une V1 fonctionnel avant de passer aux bonus. Les bonus servent à passer d'une note de 13 à 20.
+
+
+Les projets réalisés doivent être déposées sous forme de dépôt GitHub. Le lien vers le dépôt Git à évaluer doit m'être transmis par mail pour le 30/01/2022.
 
 Le dépôt Git de ce cours doit servir de modèle de structuration de données et codes. Le readme.md devra contenir un lien pour le lancement de l'application via myBinder (en mode notebook et en mode voilà).
 
