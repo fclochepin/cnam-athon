@@ -37,10 +37,14 @@ Ah, parfait, on est large alors :-)
 
 
 ### Cahier des charges
+*Info législatives relatives à la collecte de données (16/12/2021) : [ouvrir la science](https://www.ouvrirlascience.fr/la-fouille-de-textes-et-de-donnees-a-des-fins-de-recherche-une-pratique-confirmee-et-desormais-operationnelle-en-droit-francais/?utm_campaign=Data%20veille&utm_medium=email&utm_source=Revue%20newsletter)*
+
 1. Dans le fichier prenom_nom_scrapping.ipynb : Réaliser un scrapper de fichier audio depuis l'une des sources suivantes (https://www.ldoceonline.com/dictionary/love, https://www.linguee.fr/anglais-francais/traduction/love.html, https://dictionary.cambridge.org/dictionary/english/love) (jeter un oeil sur scrapAndParse.ipynb)
     1. Obtenir l'url du mp3 en anglais britannique et anglais américain d'un mot vedette cible
     1. Obtenir l'information du type prononciation IPA (longman), POS (longman, linguee, cambridge) (bonus)
     1. Obtenir toutes les urls de mp3 si il y a plusieurs variantes car le mot existe avec plusieurs part of speech (bonus)
+    
+
 
 1. Dans le fichier prenom_nom_manipDataframe : Produire par programmation un enrichissement du dictionnaire de Buchanan 1757 en ajoutant (jeter un oeil sur pandasTricks.ipynb): 
     1. une colonne motVedette (transformation/simplification de la prononciation d'origine) en utilisant le mapping du fichier Buchanan_PronChar_counts.csv 
