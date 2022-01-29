@@ -81,7 +81,7 @@ Le dépôt Git de ce cours doit servir de modèle de structuration de données e
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fclochepin/cnam-athon/HEAD)
 
-[Lien voilà : ](https://mybinder.org/v2/gh/fclochepin/cnam-athon/HEAD?urlpath=voila%2Frender%2Fnotebook%2Fflorian_clochepin_app.ipynb)
+[Lien voilà](https://mybinder.org/v2/gh/fclochepin/cnam-athon/HEAD?urlpath=voila%2Frender%2Fnotebook%2Fflorian_clochepin_app.ipynb)
 
 
 
